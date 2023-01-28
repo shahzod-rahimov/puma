@@ -8,3 +8,367 @@
 body {
   font-family: "Poppins Regular";
 }
+
+.container {
+  width: 1146px;
+  margin: 0 auto;
+  
+}
+/* -------------------- Header start ---------------------------- */
+
+header {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 90px;
+}
+
+.nav__list {
+  margin-left: -300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.nav__list--item {
+  list-style-type: none;
+}
+
+.nav__list--item-link {
+  text-decoration: none;
+  color: #1a0a03;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.active {
+  color: #ee5514;
+}
+
+.nav__btn {
+  background: #ee5514;
+  border-radius: 5px;
+  padding: 15px 30px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+/* -------------------- Header end ---------------------------- */
+
+/* -------------------- Intro start ---------------------------- */
+
+.intro__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.intro__left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.intro__left-title {
+  width: 366px;
+  font-family: "Source Serif Pro SemiBold";
+  font-weight: 600;
+  font-size: 61px;
+}
+
+.intro__left-subtitle {
+  width: 326px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1a0a03;
+  opacity: 0.7;
+}
+
+.intro__right {
+  width: 455px;
+  display: flex;
+  align-items: center;
+  margin-left: -100px;
+}
+
+.intro__right--img-rectengle {
+  position: relative;
+  margin-top: 47px;
+}
+
+.intro__right--imgBack-dots {
+  position: absolute;
+  top: 143px;
+  right: 438px;
+}
+
+.intro__right--img-trainers {
+  position: absolute;
+  top: 120px;
+  left: 690px;
+}
+
+.intro__right--imgBack-dots li {
+  list-style-type: none;
+}
+
+.intro__right--img-shadow {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  filter: blur(37px);
+  width: 389px;
+  height: 89px;
+  left: 807px;
+  top: 449px;
+}
+
+.intro__right-arrow {
+  position: absolute;
+  background: #ee5514;
+  opacity: 0.1;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  right: 70px;
+}
+
+.arrow {
+  right: 95px;
+  position: absolute;
+}
+
+.intro__bottom {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 792px;
+  height: 125px;
+  box-shadow: 0px 1px 14px rgba(26, 10, 3, 0.05);
+  border-radius: 5px;
+}
+
+.intro__bottom---lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.intro__bottom---lists--ls-title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #1a0a03;
+  opacity: 0.7;
+}
+
+.intro__bottom---lists--ls-subtitle {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #1a0a03;
+}
+
+.intro__bottom---lists--ls {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.intro__bottom-btn {
+  background: #ee5514;
+  border-radius: 5px;
+  padding: 15px 30px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.intro__bottom---lists--ls-stick {
+  border: 1px solid #ee5514;
+  transform: rotate(90deg);
+  width: 42px;
+  height: 0px;
+}
+
+/* -------------------- Intro end ---------------------------- */
+
+/* -------------------- Video start ---------------------------- */
+
+.video__container {
+  margin-top: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 245px;
+}
+
+.video__info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.video__info-text {
+  font-family: "Source Serif Pro SemiBold";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.video__info-title {
+  font-family: "Source Serif Pro SemiBold";
+  width: 340px;
+  font-weight: 600;
+  font-size: 44px;
+  color: #1a0a03;
+}
+
+.video__info-subtitle {
+  width: 326px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1a0a03;
+  opacity: 0.7;
+}
+
+.video__img-back {
+  position: relative;
+}
+
+.video__img-front {
+  position: absolute;
+  right: 145px;
+  top: 925px;
+}
+
+.play {
+  position: absolute;
+  left: 883px;
+  top: 1040px;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* -------------------- Video end ---------------------------- */
+
+/* -------------------- Feature start ---------------------------- */
+
+.feature__container {
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.feature__smallTitle {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Source Serif Pro SemiBold";
+}
+
+.feature__title {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 44px;
+  font-family: "Source Serif Pro SemiBold";
+}
+
+.feature__cards {
+  margin: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.feature__cards--card {
+  background: #ffffff;
+  box-shadow: 0px 1px 30px rgba(26, 10, 3, 0.05);
+  border-radius: 10px;
+  width: 360px;
+  height: 423px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.active__card {
+  background: #ffcdb84a;
+}
+
+.feature__cards--card-img {
+  width: 140px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.first {
+  background: #7bb0ff41;
+}
+
+.second {
+  background: #ac90fa49;
+}
+
+.third {
+  background: #da8efd54;
+}
+
+.feature__cards--card-title {
+  margin-top: 28px;
+  font-family: "Source Serif Pro SemiBold";
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.feature__cards--card-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  color: #1a0a03;
+  opacity: 0.7;
+  width: 239px;
+  text-align: center;
+}
+
+.feature__cards--card-bottomText {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.feature__cards--card-bottomText p {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+/* -------------------- Feature end ---------------------------- */
