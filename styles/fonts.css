@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Poppins Regular";
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins Medium";
+  src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Poppins Medium Italic";
+  src: url(../fonts/Poppins/Poppins-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: "Source Serif Pro SemiBold";
+  src: url(../fonts/Source_Serif_Pro/SourceSerifPro-SemiBold.ttf);
+}
