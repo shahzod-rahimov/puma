@@ -12,7 +12,23 @@ body {
 .container {
   width: 1146px;
   margin: 0 auto;
-  
+}
+
+button {
+  cursor: pointer;
+  background: #ee5514;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background: #f3753f;
+}
+
+button:active {
+  background: #ee5514;
 }
 /* -------------------- Header start ---------------------------- */
 
@@ -54,14 +70,9 @@ header {
 }
 
 .nav__btn {
-  background: #ee5514;
   border-radius: 5px;
   padding: 15px 30px;
-  color: #fff;
-  font-weight: 500;
   font-size: 18px;
-  border: none;
-  cursor: pointer;
 }
 
 /* -------------------- Header end ---------------------------- */
@@ -151,6 +162,7 @@ header {
 .arrow {
   right: 95px;
   position: absolute;
+  cursor: pointer;
 }
 
 .intro__bottom {
@@ -194,14 +206,9 @@ header {
 }
 
 .intro__bottom-btn {
-  background: #ee5514;
   border-radius: 5px;
   padding: 15px 30px;
-  color: #fff;
-  font-weight: 500;
   font-size: 18px;
-  border: none;
-  cursor: pointer;
 }
 
 .intro__bottom---lists--ls-stick {
@@ -273,6 +280,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 /* -------------------- Video end ---------------------------- */
 
@@ -361,14 +369,364 @@ header {
 }
 
 .feature__cards--card-bottomText {
+  margin-top: 10px;
   display: flex;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
 
 .feature__cards--card-bottomText p {
-  margin-top: 10px;
   font-weight: 500;
   font-size: 16px;
 }
 /* -------------------- Feature end ---------------------------- */
+
+/* -------------------- Gallery start ---------------------------- */
+
+.gallary__container {
+  margin-top: 140px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.gallary__smallTitle {
+  font-family: "Source Serif Pro SemiBold";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.gallary__title {
+  font-family: "Source Serif Pro SemiBold";
+  font-weight: 600;
+  font-size: 44px;
+}
+
+.gallary__categoriesWithArrows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 530px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.category {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1a0a03;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.active-category {
+  color: #ee5514;
+  border-bottom: 1px solid #ee5514;
+  font-weight: 500;
+}
+
+.arrows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.arrows-arrow {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ffac885b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.gallary__cards {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gallary__cards--card {
+  margin-right: 30px;
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gallary__cards--card-title {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: "Source Serif Pro SemiBold";
+}
+
+.gallary__cards--card-span {
+  margin-right: 10px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.gallary__cards--card-text {
+  font-weight: 500;
+  font-size: 16px;
+  color: #1a0a03;
+  opacity: 0.8;
+}
+
+.gallary__cards--card-btn {
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+/* -------------------- Gallery end ---------------------------- */
+
+/* -------------------- Testimonial start ---------------------------- */
+
+.testimonial__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testimonials__title {
+  margin-top: 140px;
+  font-weight: 600;
+  font-size: 44px;
+  color: #1a0a03;
+}
+
+.testimonial__main {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 127px;
+}
+
+.testimonial__main--right-avatarWithArrow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.qushtirnoq {
+  margin-top: 30px;
+}
+
+.testimonial__main--right-title {
+  font-family: "Source Serif Pro SemiBold";
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 22px;
+  color: #1a0a03;
+}
+
+.testimonial__main--right-subtitle {
+  margin-top: 15px;
+  width: 390px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #1a0a03;
+  opacity: 0.7;
+}
+
+.testimonial__main--right-author {
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #1a0a03;
+}
+
+.testimonial__main--right-profession {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #1a0a03;
+  opacity: 0.8;
+}
+
+/* -------------------- Testimonial end ---------------------------- */
+/* -------------------- Signup start ---------------------------- */
+
+.signup__container {
+  display: flex;
+  align-items: center;
+  padding: 0 33px;
+  margin-top: 140px;
+}
+
+.signup__info {
+  width: 652px;
+  height: 334px;
+  background: #e0edff82;
+  border-radius: 0px 10px 10px 0px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding: 63px;
+}
+
+.signup__info-subtitle {
+  width: 525px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1a0a03;
+  opacity: 0.7;
+}
+
+.signup__info-title {
+  font-family: "Source Serif Pro SemiBold";
+  font-weight: 600;
+  font-size: 31px;
+  color: #1a0a03;
+}
+
+.signup__info--inpAndBtn {
+  margin-top: 20px;
+  width: 526px;
+}
+
+.signup__info--inpAndBtn-inp {
+  padding: 15px 20px;
+  width: 70%;
+  outline: none;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  margin-right: -10px;
+}
+.signup__info--inpAndBtn-btn {
+  padding: 15px 40px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+/* -------------------- Signup end ---------------------------- */
+/* -------------------- Footer start ---------------------------- */
+
+footer {
+  margin-top: 34px;
+  background: #ffd5c36c;
+  height: 441px;
+}
+
+footer p,
+.footer__services--list-text {
+  font-weight: 400;
+  font-size: 18px;
+  color: #1a0a03;
+  opacity: 0.7;
+}
+
+footer h3 {
+  width: 111px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1a0a03;
+}
+
+.footer__container {
+  padding-top: 107px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.footer__socials-text {
+  margin-top: 23px;
+  width: 203px;
+}
+
+.footer__socials-mail {
+  margin-top: 20px;
+}
+
+.footer__socials-icons {
+  margin-top: 10px;
+  display: flex;
+  gap: 25px;
+}
+
+.footer__services--list {
+  margin-top: 31px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__services--list-text {
+  list-style-type: none;
+}
+
+.footer__contact {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__services {
+  width: 111px;
+}
+
+.footer__services-subtitle {
+  margin-top: 31px;
+}
+
+.support {
+  margin-right: 100px;
+}
+
+.support li {
+  width: 167px;
+}
+
+.footer__contact--inpWithBtn {
+  margin-top: 38px;
+  display: flex;
+}
+
+.footer__contact--inpWithBtn-inp {
+  padding: 15px 30px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  border: none;
+}
+
+.footer__contact--inpWithBtn-btn {
+  padding: 15px 30px;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  cursor: pointer;
+}
+
+.line {
+  padding-top: 40px;
+  border-bottom: 1px solid #acaaaa;
+  width: 1141px;
+  margin: 0 auto;
+}
+
+.copy-right {
+  margin: 30px 0;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #1a0a03;
+  opacity: 0.7;
+}
+
+/* -------------------- Footer end ---------------------------- */
